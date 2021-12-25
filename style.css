@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 2px;
+	background: linear-gradient(#4b67a1,#3b5998);
+	overflow: hidden;
+	position: relative;
+}
+.header h1{
+	color: White;
+	font-family: Javanese Text;
+	font-size: 27px;
+	margin-left: 5%;
+	margin-top: 15px;
+	width: 10%;
+	display: inline-block;
+}
+.login_area{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 30%;
+	height: 70px;
+	display: inline-block;
+}
+.input_area{
+	display: inline-block;
+	overflow: hidden;
+	font-family: tahoma;
+	font-size: small;
+	color: white;
+}
+.input_area a{
+	display: inline-block;
+	position: absolute;
+	color: #9cb4d8;
+	font-size: 13px;
+	font-family: tahoma;
+	text-decoration: none;
+}
+#login_button{
+	padding: 0px 3px;
+	color: darkgreen;
+	border-radius: 2px;
+	outline: none;
+}
+.login_area input{
+	outline: none;
+	margin-top: 3px;
+	border: white;
+	height: 23px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+.body_left{
+	text-align: center;
+	width: 45%;
+	height: 600px;
+	float: left;
+	background: linear-gradient( 360deg, #e7ebfa,white);
+}
+.body_right{
+	width: 55%;
+	float: right;
+	height: 600px;
+	background: linear-gradient( 360deg, #e7ebfa,white);
+}
+.body_left img{
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+	margin-left:50px;
+	margin-right: 30px;
+	border-radius: 40%;
+	float: left;
+}
+.body_left h1{
+	text-align: center;
+	font-family: Cambria;
+	margin-top: 110px;
+}
+.body_left h4{
+	color: grey;
+	font-family: Comic Sans MS;
+}
+.body_right_content{
+	margin: 80px;
+}
+.body_right_content h1{
+	margin-bottom: 10px;
+}
+.body_right_content h4{
+	margin-bottom: 10px;
+	color: grey;
+}
+.body_right_content input{
+	display: block;
+	width: 500px;
+	height: 30px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #e8eef4;
+	margin-top: 5px;
+	padding-left: 4px;
+}
+.name_input input{
+	width: 245px;
+	display: inline-block;
+}
+#b_date{
+	width: 200px;
+	height: 20px;
+	font-size: 10px;
+	background: white;
+	color: green;
+	font-family: tahoma;
+}
+.gender input{
+	width: 25px;
+	height: auto;
+	display: inline-block;
+}
+.body_right_content span{
+	text-align: left;
+	font-style: bold;
+	font-size: 15px;
+	color: grey;
+
+}
+#newpass{
+	margin-bottom: 10px;
+}
+.body_right_content h5{
+	width: 400px;
+	text-align: left;
+	color: grey;
+	font-size: 10px;
+	opacity: 90%;
+	margin-bottom: 20px;
+}
+.body_right_content h5 a{
+	color: blue;
+	text-decoration: none;
+	font-size: 9px;
+}
+#signup{
+	width: 200px;
+	background-color: green;
+	color: white;
+}
